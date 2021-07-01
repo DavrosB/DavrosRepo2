@@ -5,14 +5,11 @@ public class calc1 {
 //	Calculator Exercise
 
 	public static int add(int a, int b) {
-	
-		
+
 		int c = a + b;
 		return c;
-		
-	
-		}
-	
+
+	}
 
 	public static int sub(int a, int b) {
 		int c = a - b;
@@ -27,15 +24,19 @@ public class calc1 {
 	public static double div(double a, double b) {
 //		add condition of divide as per QA book
 		double c = 0.0;
-
+		
+		
+		
 		if (a > b) {
 			c = a / b;
+		
 		}
-
 		else {
 			System.out.println("Division can't be done");
 		}
 
+		Integer.
+		
 		return c;
 
 	}
